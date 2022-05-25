@@ -17,10 +17,10 @@ public class BrowserHistory {
                     current = "no previous URLs";
                 }
             }else {
-               if (!current.equals("blank")) {
-                   addres.push(current);
-               }
-               current=input;
+                if (!current.equals("blank")) {
+                    addres.push(current);
+                }
+                current=input;
             }
             System.out.println(current);
             input = scanner.nextLine();
